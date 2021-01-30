@@ -1,0 +1,57 @@
+:root {
+	--main-blue: #56a5eb;
+	font-size: 10px;
+}
+
+.choice-container {
+	display: flex;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	font-size: 1.8rem;
+	border: 0.1rem solid rgba(86, 165, 235, 0.5);
+	background-color: white;
+}
+
+.choice-prefix {
+	padding: 1.5rem 2.5rem;
+	background-color: var(--main-blue);
+	transition: transform 0.15s ease-in-out;
+}
+
+.choice-prefix:hover {
+	box-shadow: 0 0.4rem 0 rgba(86, 185, 235, 0.5);
+	transform: translateY(-0.4rem);
+}
+
+.choice-text {
+	padding: 1.5rem;
+	width: 100%;
+}
+
+.correct {
+	background-color: #28a745;
+}
+
+.incorrect {
+	background-color: #dc3545;
+}
+
+.hud-item {
+	text-align: center;
+}
+
+.hud-prefix {
+	font-size: 2rem;
+}
+
+#progressbar {
+	margin-top: 1.5rem;
+	border: 0.2rem solid rgba(86, 165, 235, 0.5);
+	width: 15rem;
+	height: 3.4rem;
+}
+
+#progress-full-bar {
+	background-color: var(--main-blue);
+	height: 100%;
+}
